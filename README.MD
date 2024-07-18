@@ -1,10 +1,15 @@
-API ARTIGOS
+-----------------------------------------------------------
+API ARTIGO
+-----------------------------------------------------------
 
 Projeto desenvolvido com linguagem Node.js, nele utilizo algumas ferramentas segue:
 Express para fazer o gerenciamento das requisições, rotas e urls, entre outras funcionalidades. 
 Banco de Dados MongoDB e Mongoose que fornece uma solução mais direta para modelar os dados.
 
 
+-----------------------------------------------------------
+PASSOS INICIAIS
+-----------------------------------------------------------
 //Criar o arquivo package
 npm init
 
