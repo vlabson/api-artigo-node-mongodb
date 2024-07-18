@@ -1,3 +1,10 @@
+API ARTIGOS
+
+Projeto desenvolvido com linguagem Node.js, nele utilizo algumas ferramentas segue:
+Express para fazer o gerenciamento das requisições, rotas e urls, entre outras funcionalidades. 
+Banco de Dados MongoDB e Mongoose que fornece uma solução mais direta para modelar os dados.
+
+
 //Criar o arquivo package
 npm init
 
@@ -30,3 +37,39 @@ npm install
 
 //Rodar o projeto usando o nodemon
 nodemon app.js ou nomedoarquivo.js
+
+-----------------------------------------------------------
+ ROTA LISTAR
+-----------------------------------------------------------
+
+GET http://localhost:8080/
+
+-----------------------------------------------------------
+ ROTA DELETAR
+-----------------------------------------------------------
+
+DELETE http://localhost:8080/id
+
+-----------------------------------------------------------
+ ROTA EDITAR
+-----------------------------------------------------------
+
+PUT http://localhost:8080/id
+    
+  BODY / JSON
+    {
+      titulo: req.body.titulo,
+      conteudo: req.body.conteudo,
+    }
+
+-----------------------------------------------------------
+ ROTA CADASTRA
+-----------------------------------------------------------
+
+POST http://localhost:8080/artigo
+    
+     BODY / JSON
+    {
+      titulo: req.body.titulo,
+      conteudo: req.body.conteudo,
+    }
